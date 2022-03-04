@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\artem\\source\\repos\\Project\\Project\\Project.csproj": {}
+    "C:\\Users\\artem\\Desktop\\Project\\Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\artem\\source\\repos\\Project\\Project\\Project.csproj": {
+    "C:\\Users\\artem\\Desktop\\Project\\Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\artem\\source\\repos\\Project\\Project\\Project.csproj",
+        "projectUniqueName": "C:\\Users\\artem\\Desktop\\Project\\Project.csproj",
         "projectName": "Project",
-        "projectPath": "C:\\Users\\artem\\source\\repos\\Project\\Project\\Project.csproj",
+        "projectPath": "C:\\Users\\artem\\Desktop\\Project\\Project.csproj",
         "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\artem\\source\\repos\\Project\\Project\\obj\\",
+        "outputPath": "C:\\Users\\artem\\Desktop\\Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
