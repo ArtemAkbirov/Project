@@ -40,6 +40,56 @@
 //Console.WriteLine(result1);
 //Console.WriteLine(result2);
 
-int num = Convert.ToInt32(Console.ReadLine());
-string c = HomeworkSecond.Task5(num);
-Console.WriteLine(c);
+//int num = Convert.ToInt32(Console.ReadLine());
+//string c = HomeworkSecond.Task5(num);
+//Console.WriteLine(c);
+
+//Homework3
+
+//int a = Convert.ToInt32(Console.ReadLine());
+//int b = Convert.ToInt32(Console.ReadLine());
+//int c = HomeworkThird.Task1(a, b);
+//Console.WriteLine(c);
+
+//int a = Convert.ToInt32(Console.ReadLine());
+//HomeworkThird.Task2(ref a);
+//Console.WriteLine(a);
+
+//int a = Convert.ToInt32(Console.ReadLine());
+//int b = HomeworkThird.Task3(a);
+//Console.WriteLine(b);
+
+//int a = Convert.ToInt32(Console.ReadLine());
+//int b = HomeworkThird.Task4(a);
+//Console.WriteLine(b);
+
+//int a = Convert.ToInt32(Console.ReadLine());
+//int b = Convert.ToInt32(Console.ReadLine());
+//int c = HomeworkThird.Task5(a, b);
+//Console.WriteLine(c);
+
+//int a = Convert.ToInt32(Console.ReadLine());
+//int b = HomeworkThird.Task6(a);
+//Console.WriteLine(b);
+
+//int a = Convert.ToInt32(Console.ReadLine());
+//int b = Convert.ToInt32(Console.ReadLine());
+//int c = HomeworkThird.Task7(a, b);
+//Console.WriteLine(c);
+
+//int a = Convert.ToInt32(Console.ReadLine());
+//int b = HomeworkThird.Task8(a);
+//Console.WriteLine(b);
+
+//int a = Convert.ToInt32(Console.ReadLine());
+//int b = HomeworkThird.Task9(a);
+//Console.WriteLine(b);
+
+//int a = Convert.ToInt32(Console.ReadLine());
+//int b = HomeworkThird.Task10(a);
+//Console.WriteLine(b);
+
+//int a = Convert.ToInt32(Console.ReadLine());
+//int b = Convert.ToInt32(Console.ReadLine());
+//string c = HomeworkThird.Task12(a, b);
+//Console.WriteLine(c);
