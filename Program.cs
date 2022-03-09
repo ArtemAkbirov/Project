@@ -93,3 +93,39 @@
 //int b = Convert.ToInt32(Console.ReadLine());
 //string c = HomeworkThird.Task12(a, b);
 //Console.WriteLine(c);
+
+//int[] randomNumber = Arrayes.CreateArray(10);
+//int min = Arrayes.FindMin(randomNumber);
+//Arrayes.WriteArray(randomNumber);
+//Console.WriteLine();
+//Console.Write(min);
+
+//int[] randomNumber = Arrayes.CreateArray(10);
+//int max = Arrayes.FindMax(randomNumber);
+//Arrayes.WriteArray(randomNumber);
+//Console.WriteLine();
+//Console.Write(max);
+
+//int[] randomNumber = Arrayes.CreateArray(10);
+//int minIndex = Arrayes.FindMinIndex(randomNumber);
+//Arrayes.WriteArray(randomNumber);
+//Console.WriteLine();
+//Console.Write(minIndex);
+
+//int[] randomNumber = Arrayes.CreateArray(10);
+//int maxIndex = Arrayes.FindMaxIndex(randomNumber);
+//Arrayes.WriteArray(randomNumber);
+//Console.WriteLine();
+//Console.Write(maxIndex);
+
+//int[] randomNumber = Arrayes.CreateArray(10);
+//int oddIndex = Arrayes.FindSummOddIndex(randomNumber);
+//Arrayes.WriteArray(randomNumber);
+//Console.WriteLine();
+//Console.Write(oddIndex);
+
+int[] randomNumber = Arrayes.CreateArray(10);
+int summ = Arrayes.FindQuantityOddEllementsArray(randomNumber);
+Arrayes.WriteArray(randomNumber);
+Console.WriteLine();
+Console.Write(summ);
