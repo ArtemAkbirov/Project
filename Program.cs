@@ -1,4 +1,6 @@
 ﻿using Project;
+
+
 //double y1 = Convert.ToDouble(Console.ReadLine());
 //double y2 = Convert.ToDouble(Console.ReadLine());
 //double x1 = Convert.ToDouble(Console.ReadLine());
@@ -6,7 +8,7 @@
 //string z = HomeworkFirst.Task5(y1, y2, x1, x2);
 //Console.WriteLine(z);
 
-//(int, int) a = HomeworkFirst.Task1();
+//(int, int) a = HomeworkFirst.DevineAndRemainder();
 //Console.WriteLine(a.Item1);
 //Console.WriteLine(a.Item2);
 
@@ -25,14 +27,14 @@
 
 //int x = Convert.ToInt32(Console.ReadLine());
 //int y = Convert.ToInt32(Console.ReadLine());
-//string c = HomeworkSecond.Task2(x, y);
+//string c = BranchStructures.Task2(x, y);
 //Console.WriteLine(c);
 
 //int a = Convert.ToInt32(Console.ReadLine());
 //int b = Convert.ToInt32(Console.ReadLine());
 //int c = Convert.ToInt32(Console.ReadLine());
-//string result = HomeworkSecond.Task3(a, b, c);
-//Console.WriteLine(result);
+//int[] arr = BranchStructures.Task3(a, b, c);
+//Console.WriteLine(arr);
 
 //string result1 = "";
 //string result2 = "";
@@ -46,10 +48,10 @@
 
 //Homework3
 
-//int a = Convert.ToInt32(Console.ReadLine());
-//int b = Convert.ToInt32(Console.ReadLine());
-//int c = HomeworkThird.Task1(a, b);
-//Console.WriteLine(c);
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+int c = HomeworkThird.Task1(a, b);
+Console.WriteLine(c);
 
 //int a = Convert.ToInt32(Console.ReadLine());
 //HomeworkThird.Task2(ref a);
@@ -94,6 +96,8 @@
 //string c = HomeworkThird.Task12(a, b);
 //Console.WriteLine(c);
 
+//Homework Array
+
 //int[] randomNumber = Arrayes.CreateArray(10);
 //int min = Arrayes.FindMin(randomNumber);
 //Arrayes.WriteArray(randomNumber);
@@ -124,8 +128,15 @@
 //Console.WriteLine();
 //Console.Write(oddIndex);
 
-int[] randomNumber = Arrayes.CreateArray(10);
-int summ = Arrayes.FindQuantityOddEllementsArray(randomNumber);
-Arrayes.WriteArray(randomNumber);
-Console.WriteLine();
-Console.Write(summ);
+//int[] randomNumber = Arrayes.CreateArray(10);
+//int summ = Arrayes.FindQuantityOddEllementsArray(randomNumber);
+//Arrayes.WriteArray(randomNumber);
+//Console.WriteLine();
+//Console.Write(summ);
+
+//int[] randomNumber = Arrayes.CreateArray(10);
+//Arrayes.WriteArray(randomNumber);
+//int [] random = Arrayes.Reverse(randomNumber);
+//Console.WriteLine();
+//Arrayes.WriteArray(random);
+

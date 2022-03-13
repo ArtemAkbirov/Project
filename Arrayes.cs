@@ -98,6 +98,25 @@ namespace Project
             }
             return quantity;
         }
+        public static int[] Copy(int[] array)
+        {
+            int[] newArray = new int[array.Length];
+            Array.Copy(array, newArray, array.Length);
+            return newArray;
+        }
+        public static int[] Reverse(int[] array)
+        {
+            int[] result = Copy(array);
 
+            int n = result.Length / 2;
+            for (int i = 0; i < n; i++)
+            {
+                int tmp = result[i];
+                result[i] = result[result.Length - (1 + i)];
+                result[result.Length - (1 + i)] = tmp;
+            }
+
+            return result;
+        }
     }
 }

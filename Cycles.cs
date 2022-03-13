@@ -28,14 +28,20 @@ namespace Project
             }
             return result;
         }
-        //public static void Task2(ref int result)
+        //public static int[] Task2(int[] a)
         //{
-        //    int a = Convert.ToInt32(Console.ReadLine());
-        //    for (int i = a; i < 1000; i += a)
         //    {
-        //        result = i;
+        //        int b = 2;
+        //        int[] result = new int[a.Length];
+        //        for (int i = 0; i < a.Length; i ++)
+        //        {
+        //            if (i%b==0)
+        //            {
+        //                result = i;
+        //            }
+        //        }
+        //        return result;
         //    }
-           
         //}
         public static int Task3(int a)
         {
