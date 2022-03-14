@@ -30,11 +30,14 @@
 //string c = BranchStructures.Task2(x, y);
 //Console.WriteLine(c);
 
-//int a = Convert.ToInt32(Console.ReadLine());
-//int b = Convert.ToInt32(Console.ReadLine());
-//int c = Convert.ToInt32(Console.ReadLine());
-//int[] arr = BranchStructures.Task3(a, b, c);
-//Console.WriteLine(arr);
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+int c = Convert.ToInt32(Console.ReadLine());
+double[] arr = BranchStructures.SolvingTheEquationUsingTheDiscriminant(a, b, c);
+for (int i = 0; i < arr.Length; i++)
+{
+    Console.WriteLine(arr[i]);
+}
 
 //string result1 = "";
 //string result2 = "";
@@ -48,10 +51,10 @@
 
 //Homework3
 
-int a = Convert.ToInt32(Console.ReadLine());
-int b = Convert.ToInt32(Console.ReadLine());
-int c = HomeworkThird.Task1(a, b);
-Console.WriteLine(c);
+//int a = Convert.ToInt32(Console.ReadLine());
+//int b = Convert.ToInt32(Console.ReadLine());
+//int c = HomeworkThird.Task1(a, b);
+//Console.WriteLine(c);
 
 //int a = Convert.ToInt32(Console.ReadLine());
 //HomeworkThird.Task2(ref a);

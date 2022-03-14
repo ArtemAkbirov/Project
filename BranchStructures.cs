@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project
 {
-    internal class BranchStructures
+    public class BranchStructures
     {
         public static int GetSolutionComprasion(int a, int b)
         {
@@ -47,10 +47,6 @@ namespace Project
             else if (x > 0 && y < 0)
             {
                 result = "Четвертая четверть";
-            }
-            else
-            {
-                result = "Зачем ты вводишь нули?";
             }
             return result;
         }
@@ -120,7 +116,7 @@ namespace Project
             string secondWord = "";
             string result = "";
 
-            if ((num > -9 && num < 9) || (num < -99 && num > 99))
+            if (num>99||num<99)
             {
                 throw new Exception("Number is not in raange");
             }

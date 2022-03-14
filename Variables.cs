@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace Project
 {
-    internal class Variables
+    public class Variables
     {
-        public static (int, int) DevineAndRemainder()
+        public static (int, int) DevineAndRemainder(int a, int b)
         {
-            int a = Convert.ToInt32(Console.ReadLine());
-            int b = Convert.ToInt32(Console.ReadLine());
             if (b == 0)
             {
                 throw new Exception("b haven't to be zero");
@@ -25,7 +23,7 @@ namespace Project
                 throw new Exception("<a> can't be equal <b>");
             }
 
-            double result = -((5 * a) + (b * b)) / (b - a);
+            double result = ((5 * a) + (b * b)) / (b - a);
             return result;
         }
         public static void SwapStrings(ref string result1, ref string result2)
@@ -60,9 +58,8 @@ namespace Project
             }
             double k = (y1 - y2) / (x1 - x2);
             double n = y2 - k * x2;
-            string s = $"Уравнение Y= + {k}x + {n}";
+            string s = $"Уравнение y = {k}x + {n}";
             return s;
-
         }
     }
 }
