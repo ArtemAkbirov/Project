@@ -30,14 +30,14 @@
 //string c = BranchStructures.Task2(x, y);
 //Console.WriteLine(c);
 
-int a = Convert.ToInt32(Console.ReadLine());
-int b = Convert.ToInt32(Console.ReadLine());
-int c = Convert.ToInt32(Console.ReadLine());
-double[] arr = BranchStructures.SolvingTheEquationUsingTheDiscriminant(a, b, c);
-for (int i = 0; i < arr.Length; i++)
-{
-    Console.WriteLine(arr[i]);
-}
+//int a = Convert.ToInt32(Console.ReadLine());
+//int b = Convert.ToInt32(Console.ReadLine());
+//int c = Convert.ToInt32(Console.ReadLine());
+//double[] arr = BranchStructures.SolvingTheEquationUsingTheDiscriminant(a, b, c);
+//for (int i = 0; i < arr.Length; i++)
+//{
+//    Console.WriteLine(arr[i]);
+//}
 
 //string result1 = "";
 //string result2 = "";
@@ -57,8 +57,11 @@ for (int i = 0; i < arr.Length; i++)
 //Console.WriteLine(c);
 
 //int a = Convert.ToInt32(Console.ReadLine());
-//HomeworkThird.Task2(ref a);
-//Console.WriteLine(a);
+//int[] arr = Cycles.GetNumbersThatDivisibleA(a);
+//for (int i = 0; i < arr.Length; i++)
+//{
+//    Console.WriteLine(arr[i]);
+//}
 
 //int a = Convert.ToInt32(Console.ReadLine());
 //int b = HomeworkThird.Task3(a);
@@ -82,9 +85,9 @@ for (int i = 0; i < arr.Length; i++)
 //int c = HomeworkThird.Task7(a, b);
 //Console.WriteLine(c);
 
-//int a = Convert.ToInt32(Console.ReadLine());
-//int b = HomeworkThird.Task8(a);
-//Console.WriteLine(b);
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Cycles.HalfDivision(a);
+Console.WriteLine(b);
 
 //int a = Convert.ToInt32(Console.ReadLine());
 //int b = HomeworkThird.Task9(a);

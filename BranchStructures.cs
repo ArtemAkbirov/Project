@@ -116,7 +116,7 @@ namespace Project
             string secondWord = "";
             string result = "";
 
-            if (num>99||num<99)
+            if ((num >= -9 && num <= 9) || (num < -99 || num > 99))
             {
                 throw new Exception("Number is not in raange");
             }

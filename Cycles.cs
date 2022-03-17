@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project
 {
-    internal class Cycles
+    public class Cycles
     {
         public static int Exponentiation(int a, int b)
         {
@@ -28,21 +28,35 @@ namespace Project
             }
             return result;
         }
-        //public static int[] Task2(int[] a)
-        //{
-        //    {
-        //        int b = 2;
-        //        int[] result = new int[a.Length];
-        //        for (int i = 0; i < a.Length; i ++)
-        //        {
-        //            if (i%b==0)
-        //            {
-        //                result = i;
-        //            }
-        //        }
-        //        return result;
-        //    }
-        //}
+        public static int[] GetNumbersThatDivisibleA(int a)
+        {
+            {
+                if (a <= 0)
+                {
+                    throw new Exception("a must be >0");
+                }
+                else if (a>1000)
+                {
+                    throw new Exception("a is not range");
+                }
+                int number = 0;
+                for (int i = a; i < 1000; i+=a)
+                {
+                    if (i % a == 0)
+                    {
+                        number++;
+                    }
+                }
+                int[] result = new int[number];
+                int j = 0;
+                for (int i=a; i < 1000; i += a)
+                {
+                    result[j] = i;
+                    j++;
+                }
+                return result;
+            }
+        }
         public static int FindNumberOfPositive(int a)
         {
             int result = 0;
@@ -145,7 +159,6 @@ namespace Project
             {
                 throw new Exception("cub can not be < 0");
             }
-
             do
             {
                 centr = (left + right) / 2;
